@@ -1,3 +1,8 @@
+# My Notes
+
+* This is a project so i can learn angular framework
+
+
 # EmployeeApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
