@@ -1,8 +1,16 @@
+.form input {
+    margin-top: 10%;
+    padding: 0%;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    margin-left: 45%;
+}
 h3 {
     text-align: center;
     margin: 0% 10% 0% 10%;
     border: solid;
     color: blueviolet;
+    border-radius: 10px 10px 10px 10px;
 }
 .btn {
     margin-left: 50%;
@@ -10,5 +18,5 @@ h3 {
 }
 h1 {
     text-align: center;
-    margin: 0% 10% 0% 10%;
+    margin: 10% 10% 0% 10%;
 }

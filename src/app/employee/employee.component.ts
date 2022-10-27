@@ -9,9 +9,9 @@ import { Component } from "@angular/core";
 
 export class EmployeeComponent{
     title: string = 'My app';
-    employeesCreated: number = 0;
+    employeeName: string = "";
 
-    createEmployee(){
-        this.employeesCreated += 1;
+    updateEmployeeName(event: Event){
+        this.employeeName = (<HTMLInputElement>event.target).value;
     }
 }

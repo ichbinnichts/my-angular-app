@@ -1,3 +1,7 @@
-<h3>Welcome to {{title}}</h3>
-<button class="btn btn-primary" (click)="createEmployee()">Enviar</button>
-<h1>{{employeesCreated}}</h1>
+
+<div class="form">
+    <h3>Welcome to {{title}}</h3>
+    <input type="text" (input)="updateEmployeeName($event)" />
+    <h1>{{employeeName}}</h1>
+</div>
+
