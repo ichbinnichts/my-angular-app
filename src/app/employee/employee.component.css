@@ -1,8 +1,14 @@
 h3 {
     text-align: center;
-    padding: 10 auto;
-    margin: 1px;
+    margin: 0% 10% 0% 10%;
     border: solid;
     color: blueviolet;
-    margin-top: 15%;
+}
+.btn {
+    margin-left: 50%;
+    margin-top: 10%;
+}
+h1 {
+    text-align: center;
+    margin: 0% 10% 0% 10%;
 }
