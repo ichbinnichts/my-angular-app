@@ -3,6 +3,7 @@
     <h3>Welcome to {{title}}</h3>
     <!--<input type="text" (input)="updateEmployeeName($event)" />-->
     <input type="text" [(ngModel)]="employeeName" />
-    <h1>{{employeeName}}</h1>
+    <button class="btn btn-primary" (click)="createEmployee()">Enviar</button>
+    <h1>{{createdEmployee}}</h1>
 </div>
 
