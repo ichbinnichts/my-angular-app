@@ -1,7 +1,8 @@
 
 <div class="form">
     <h3>Welcome to {{title}}</h3>
-    <input type="text" (input)="updateEmployeeName($event)" />
+    <!--<input type="text" (input)="updateEmployeeName($event)" />-->
+    <input type="text" [(ngModel)]="employeeName" />
     <h1>{{employeeName}}</h1>
 </div>
 
