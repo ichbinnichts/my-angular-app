@@ -1,10 +1,15 @@
+<!--
 
+@AUTHOR - Nathan Víctor de Faria
+
+-->
 <div class="form">
     <h3>Welcome to {{title}}</h3>
     <!--<input type="text" (input)="updateEmployeeName($event)" />-->
     <input type="text" [(ngModel)]="employeeName" />
     <button class="btn btn-primary" (click)="createEmployee()">Send</button>
     <button class="btn btn-danger btn2" (click)="erase()">Clean Screen</button>
-    <h1 *ngIf="displayEN">{{createdEmployee}}</h1>
+    <h1 *ngIf="displayEN" [ngStyle]="{'color' : getStatusColor()}" >{{createdEmployee}}</h1>
+    <h1 *ngIf="displayEN" style="margin-top: 3%;">If name above is green, then employee is a dev ops</h1>
 </div>
 
