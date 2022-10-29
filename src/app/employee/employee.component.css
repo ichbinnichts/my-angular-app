@@ -3,7 +3,12 @@
 @AUTHOR - Nathan Víctor de Faria
 
 */
-
+.btnss{
+    background-color: blueviolet;
+    border-radius:  10px 10px 10px 10px;
+    border: solid black 5px;
+    padding-bottom: 5%;
+}
 .form input {
     margin-top: 5%;
     padding: 0%;
