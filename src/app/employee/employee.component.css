@@ -18,4 +18,11 @@ h3 {
 h1 {
     text-align: center;
     margin: 10% 10% 0% 10%;
+    border: solid;
+    color: blueviolet;
+    border-radius: 10px 10px 10px 10px;
+    /*padding-bottom: 10%;*/
+}
+.btn2 {
+    margin: 1% 10% 0% 64%
 }

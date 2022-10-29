@@ -11,11 +11,18 @@ export class EmployeeComponent{
     title: string = 'My app';
     employeeName: string = "";
     createdEmployee: string = "";
+    displayEN: boolean = false;
+
+    constructor(){
+        this.displayEN = false;
+    }
 
     createEmployee(){
+        this.displayEN = true;
         this.createdEmployee = "Employee with name "+this.employeeName+ " was created";
     }
-    updateEmployeeName(event: Event){
-        this.employeeName = (<HTMLInputElement>event.target).value;
+    erase(){
+        this.displayEN = false;
     }
+    
 }

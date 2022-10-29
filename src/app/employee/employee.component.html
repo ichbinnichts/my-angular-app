@@ -3,7 +3,8 @@
     <h3>Welcome to {{title}}</h3>
     <!--<input type="text" (input)="updateEmployeeName($event)" />-->
     <input type="text" [(ngModel)]="employeeName" />
-    <button class="btn btn-primary" (click)="createEmployee()">Enviar</button>
-    <h1>{{createdEmployee}}</h1>
+    <button class="btn btn-primary" (click)="createEmployee()">Send</button>
+    <button class="btn btn-danger btn2" (click)="erase()">Clean Screen</button>
+    <h1 *ngIf="displayEN">{{createdEmployee}}</h1>
 </div>
 
